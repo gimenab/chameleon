@@ -10768,3 +10768,8 @@ header.masthead h1 {
 img.img-fluid.logo {
     width: 150px;
 }
+
+img.icon {
+    width: 15%;
+    padding-bottom: 3%;
+}
