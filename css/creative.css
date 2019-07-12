@@ -6917,8 +6917,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-<<<<<<< Updated upstream
-  background-color: #540bc8 !important;
+  background: rgba(155,11,590,1) !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -10687,7 +10686,7 @@ header.masthead {
   background-attachment: scroll;
   background-size: cover;
   background-blend-mode: hard-light;
-  
+
 }
 
 
