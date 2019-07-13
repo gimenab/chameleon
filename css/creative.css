@@ -10692,7 +10692,7 @@ header.masthead {
 
 header.masthead h1 {
   font-size: 2.25rem;
-  color:rgb(84, 11, 200);
+  color:rgb(84, 11, 200)!important;
 }
 
 @media (min-width: 992px) {
