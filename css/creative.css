@@ -10774,6 +10774,6 @@ img.icon {
     width: 22%;
     padding-bottom: 3%;
 }
-bg-dark {
+.bg-dark {
     background-color: rgba(155,11,590,1) !important;
 }
