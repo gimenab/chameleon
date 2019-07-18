@@ -1974,7 +1974,7 @@ pre code {
     border: 0;
   }
   .img.icon{
-    width: 15%;
+    width: 15% !important;
     height: auto;
   }
 }
