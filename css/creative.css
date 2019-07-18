@@ -10692,6 +10692,7 @@ header.masthead {
 
 header.masthead h1 {
   font-size: 2.25rem;
+  color:rgb(84, 11, 200)!important;
 }
 
 @media (min-width: 992px) {
@@ -10767,4 +10768,13 @@ header.masthead h1 {
 }
 img.img-fluid.logo {
     width: 150px;
+}
+
+img.icon {
+    width: 15%;
+    height: auto;
+    padding-bottom: 3%;
+}
+.bg-dark {
+    background-color: rgba(155,11,590,1) !important;
 }
