@@ -1973,6 +1973,10 @@ pre code {
   .table-responsive-md > .table-bordered {
     border: 0;
   }
+  .img.icon{
+    width: 15% !important;
+    height: auto;
+  }
 }
 
 @media (max-width: 991.98px) {
