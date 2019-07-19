@@ -10775,7 +10775,7 @@ img.img-fluid.logo {
 }
 
 img.icon {
-    width: 15%;
+    width: 15% !important;
     height: auto;
     padding-bottom: 3%;
 }
