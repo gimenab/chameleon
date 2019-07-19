@@ -10573,7 +10573,7 @@ html {
 }
 
 .text-white-75 {
-  color: rgba(255, 255, 255, 0.75);
+  color: #ff8b8b;
 }
 
 hr.divider {
@@ -10686,6 +10686,7 @@ header.masthead {
   background: url("../img/bg-masthead.jpg");
   background: url("../img/bg-masthead.jpg");
   background-position: center;
+  background-color: black;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
@@ -10696,7 +10697,7 @@ header.masthead {
 
 header.masthead h1 {
   font-size: 2.25rem;
-  color:rgb(84, 11, 200)!important;
+  color:#ff8b8b !important;
 }
 
 @media (min-width: 992px) {
@@ -10757,7 +10758,7 @@ header.masthead h1 {
 }
 
 #portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-category {
-  font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "IBM Plex Sans", "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 0.85rem;
   font-weight: 600;
   text-transform: uppercase;
