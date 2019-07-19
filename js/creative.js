@@ -39,18 +39,7 @@
   // Collapse the navbar when page is scrolled
   $(window).scroll(navbarCollapse);
 
-  $('.gallery').each(function() { // the containers for all your galleries
-    $(this).magnificPopup({
-        delegate: 'a', // the selector for gallery item
-        type: 'image',
-        gallery: {
-          enabled:true
-        }
-    });
-});
-
   // Magnific popup calls
-  /*
   $('#portfolio').magnificPopup({
     delegate: 'a',
     type: 'image',
@@ -67,5 +56,3 @@
   });
 
 })(jQuery); // End of use strict
-
-*/
