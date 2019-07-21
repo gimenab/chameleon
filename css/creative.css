@@ -10683,8 +10683,8 @@ hr.light {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 72px);
-  background: url("../img/bg-masthead.jpg");
-  background: url("../img/bg-masthead.jpg");
+  background: url("../img/VIII.jpg");
+  background: url("../img/VIII.jpg");
   background-position: center;
   background-color: black;
   background-repeat: no-repeat;
@@ -10697,7 +10697,7 @@ header.masthead {
 
 header.masthead h1 {
   font-size: 2.25rem;
-  color:#ff8b8b !important;
+  color:#ffffff !important;
 }
 
 @media (min-width: 992px) {
@@ -10782,4 +10782,7 @@ img.icon {
 }
 .bg-dark {
     background-color: rgba(155,11,590,1) !important;
+}
+.text-white-75 {
+  color: #ffffff !important;
 }
