@@ -10686,18 +10686,16 @@ header.masthead {
   background: url("../img/VIII.jpg");
   background: url("../img/VIII.jpg");
   background-position: center;
-  background-color: black;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
-  background-blend-mode: hard-light;
 
 }
 
 
 header.masthead h1 {
   font-size: 2.25rem;
-  color:#ffffff !important;
+  color:#1e1e1e !important;
 }
 
 @media (min-width: 992px) {
@@ -10784,5 +10782,5 @@ img.icon {
     background-color: rgba(155,11,590,1) !important;
 }
 .text-white-75 {
-  color: #ffffff !important;
+  color: #1e1e1e !important;
 }
