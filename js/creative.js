@@ -29,12 +29,14 @@
   // Collapse Navbar
   var navbarCollapse = function() {
     var offset = $("#mainNav").offset().top;
+    console.log(offset);
     if ( offset > 100) {
       $("#mainNav").addClass("navbar-scrolled");
-      $('.img-fluid').collapse('hide');
+      $('.img-fluid').addClass('d-none');
 
-    } else if (offset < 100) {
+    } else {
       $("#mainNav").removeClass("navbar-scrolled");
+      $(".img-fluid").removeClass("d-none");
     }
   };
   // Collapse now if page is not at top
