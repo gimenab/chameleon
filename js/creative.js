@@ -28,11 +28,12 @@
 
   // Collapse Navbar
   var navbarCollapse = function() {
-    if ($("#mainNav").offset().top > 100) {
+    var offset = $("#mainNav").offset().top;
+    if ( offset > 100) {
       $("#mainNav").addClass("navbar-scrolled");
       $('.img-fluid').collapse('hide');
 
-    } else {
+    } else if (offset < 100) {
       $("#mainNav").removeClass("navbar-scrolled");
     }
   };
