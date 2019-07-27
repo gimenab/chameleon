@@ -10667,9 +10667,7 @@ hr.light {
     background-color: #fff;
 
   }
-  #mainNav.navbar-scrolled {
-    display: none;
-  }
+
   #mainNav.navbar-scrolled .navbar-brand {
     color: #212529;
   }

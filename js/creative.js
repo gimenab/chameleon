@@ -30,6 +30,8 @@
   var navbarCollapse = function() {
     if ($("#mainNav").offset().top > 100) {
       $("#mainNav").addClass("navbar-scrolled");
+      $('.img-fluid').collapse('hide');
+
     } else {
       $("#mainNav").removeClass("navbar-scrolled");
     }
