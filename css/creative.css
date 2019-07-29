@@ -8338,14 +8338,12 @@ button.bg-dark:focus {
   position: sticky !important;
 }
 
-/*Change in mobile nav to bottom - remove top
 @media (max-width: 768px) {
   .fixed-top{
     bottom: 0px;
-    top: 100vh;
+    top: unset !important;
   }
 }
-*/
 
 .fixed-top {
   position: fixed;
