@@ -2905,6 +2905,42 @@ fieldset:disabled a.btn {
   box-shadow: 0 0 0 0.2rem rgba(82, 88, 93, 0.5);
 }
 
+.btn-green {
+  color: #fff;
+  background-color: #25D366;
+  border-color: #075E54;
+}
+
+.btn-green:hover {
+  color: #fff;
+  background-color: #25D366;
+  border-color: #075E54;
+}
+
+.btn-green:focus, .btn-green.focus {
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(82, 88, 93, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(82, 88, 93, 0.5);
+}
+
+.btn-green.disabled, .btn-green:disabled {
+  color: #fff;
+  background-color: #343a40;
+  border-color: #343a40;
+}
+
+.btn-green:not(:disabled):not(.disabled):active, .btn-green:not(:disabled):not(.disabled).active,
+.show > .btn-green.dropdown-toggle {
+  color: #fff;
+  background-color: #1d2124;
+  border-color: #171a1d;
+}
+
+.btn-green:not(:disabled):not(.disabled):active:focus, .btn-green:not(:disabled):not(.disabled).active:focus,
+.show > .btn-green.dropdown-toggle:focus {
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(82, 88, 93, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(82, 88, 93, 0.5);
+}
+
 .btn-outline-primary {
   color: #540bc8;
   border-color: #540bc8;
@@ -10351,7 +10387,7 @@ button.bg-dark:focus {
 }
 
 .text-uppercase {
-  text-transform: uppercase !important;
+  text-transform: uppercase;
 }
 
 .text-capitalize {
@@ -10543,9 +10579,10 @@ a.text-dark:hover, a.text-dark:focus {
   .container {
     min-width: 992px !important;
   }
-  .navbar {
+  /*.navbar {
     display: none;
   }
+  */
   .badge {
     border: 1px solid #000;
   }
@@ -10695,21 +10732,19 @@ header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 72px);
   background: url("../img/VIII.jpg");
-  background: url("../img/VIII.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
-
 }
 
 
 header.masthead h1 {
-  font-size: 2.25rem;
+  font-size: 3.25rem;
   color:#1e1e1e !important;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 325px) {
   header.masthead {
     height: 100vh;
     min-height: 40rem;
@@ -10718,15 +10753,23 @@ header.masthead h1 {
   }
   header.masthead p {
     font-size: 1.15rem;
+    text-align: left;
   }
   header.masthead h1 {
-    font-size: 3rem;
+    font-size: 3.25rem;
+    text-transform: inherit;
+  }
+  header.masthead hr{
+    display: none;
+  }
+  header.masthead btn {
+    text-align: center;
   }
 }
 
 @media (min-width: 1200px) {
   header.masthead h1 {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
   }
 }
 
