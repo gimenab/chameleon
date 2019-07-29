@@ -10744,7 +10744,7 @@ header.masthead h1 {
   color:#1e1e1e !important;
 }
 
-@media (min-width: 325px) {
+@media (min-width: 414px) {
   header.masthead {
     height: 100vh;
     min-height: 40rem;
