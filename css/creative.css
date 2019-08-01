@@ -10710,6 +10710,9 @@ hr.light {
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
     background-color: #fff;
 
+  .img-fluid .logo {
+    display: none !important;
+  }
   }
 
   #mainNav.navbar-scrolled .navbar-brand {
