@@ -10837,3 +10837,8 @@ img.icon {
 .text-white-75 {
   color: #1e1e1e !important;
 }
+.fa-2x {
+font-size: 1.5em;
+font-weight: lighter;
+
+}
