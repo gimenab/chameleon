@@ -10641,6 +10641,7 @@ hr.light {
   text-transform: uppercase;
   border: none;
   border-radius: 10rem;
+  margin-top: 1em;
 }
 
 .page-section {
