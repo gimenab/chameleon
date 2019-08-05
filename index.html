@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Creating online</title>
+  <title>Plug In</title>
 
   <!-- Font Awesome Icons -->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -22,6 +22,7 @@
   <!-- Plugin CSS -->
   <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
   <link rel="stylesheet" href="css/animate.css">
+
   <!-- Theme CSS - Includes Bootstrap -->
   <link href="css/creative.css" rel="stylesheet">
 
@@ -137,6 +138,9 @@
 
   <!-- Portfolio Section -->
   <section id="portfolio">
+  <!-- — THE BEHANCE PORTFOLIO WILL BE PRINTED IN HERE -->
+    <div class=”behance-container”></div>
+  <!--
     <div class="container-fluid p-0">
       <div class="row no-gutters">
         <div class="col-lg-4 col-sm-6">
@@ -222,6 +226,7 @@
         </div>
       </div>
     </div>
+  -->
   </section>
 
   <!-- Call to Action Section -->
@@ -277,6 +282,18 @@
   <!-- Custom scripts for this template -->
   <script src="js/creative.min.js"></script>
   <script src="js/scrip.js"></script>
+
+  <! — Scrip Behance  -->
+    <script>
+       $(document).ready(function(){
+          $(‘.behance-container’).embedBehance({
+            // behance API Key
+             apiKey: ‘EL TEXTO DEL API KEY’,
+           // Behance Username
+             userName: ‘TU NOMBRE DE USUARIO’,infiniteScrolling: true,
+          });
+      });
+   </script>
 
 
 </body>

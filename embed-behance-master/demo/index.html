@@ -1,0 +1,137 @@
+<!-- 
+ * Embed Behance v1.0.0
+ * Copyright 2017 Rodolfo Ferro Casagrande
+ * The MIT License (MIT)
+ -->
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		
+		<title>Embed Behance</title>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+		
+		<!-- Embed Behance Styles -->
+		<link rel="stylesheet" type="text/css" media="all" href="css/embed.behance.css"/>
+
+		<!-- jQuery lib -->
+		<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+
+		<!-- jQuery Easing lib (optional) -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.js"></script>
+
+		<!-- Embed Behance Javascript -->
+		<script type="text/javascript" src="js/embed.behance.js"></script>
+
+		<style type="text/css">
+
+			/* setup */
+			html, body {
+				height: 100%;
+			}
+			body {
+				font-family: 'Lato', sans-serif;
+				min-height:100%;
+				position:relative;
+				line-height:1em;
+				font-size:100%;
+				color: #666;
+			}
+
+			*, *:before, *:after{
+				box-sizing:border-box;
+				margin: 0;
+				padding: 0;
+				outline: 0;
+			}
+
+			/* layout structure */
+			.container {
+				padding: 5%;
+			}
+			.content {
+				margin: 0 auto;
+			}
+			.headings{
+				margin-bottom: 6em;
+				text-align: center;
+				position: relative;
+			}
+			.headings:after{
+				content: '';
+				display: block;
+				width: 2em;
+				height: 3px;
+				background-color: #d6d6d6;
+				margin-top: 1.5em;
+				position: absolute;
+				bottom: -1.8em;
+				left: 0;
+				right: 0;
+				margin: 0 auto;
+			}
+			h1.page-title {
+				font-weight: 900;
+				font-size: 2.5em;
+				color: #2183ee;
+				text-transform: uppercase;
+			}
+			h2.sub-title{
+				font-weight: 500;
+	    		color: #d6d6d6;
+				font-size: 1.2em;
+				margin-top: 0.6em;
+			}
+			h1, h2, h3{
+				line-height: normal;
+				font-weight: normal;
+				color: #333;
+				margin: 0;
+			}
+
+		</style>
+
+	</head>
+
+	<body>
+
+		<div class="container">
+
+			<div class="content">
+				
+				<div class="headings">
+					<h1 class="page-title">Embed your Behance Portfolio</h1>
+					<h2 class="sub-title">A simple jQuery plugin to embed your design works in your website.... for free!</h2>
+				</div>
+
+				<!-- THE BEHANCE PORTFOLIO WILL BE PRINTED IN HERE -->
+				<div class="behance-container"></div>
+
+			</div>
+		</div>
+
+		<script>
+
+			$(document).ready(function(){
+
+				 $('.behance-container').embedBehance({
+
+				 	// behance API Key
+					apiKey: 'Zb0XWEqAvBua4lmCbfb6derptH2tp4cc',
+
+					// Behance Username
+					userName: 'rolfo85'
+
+				});
+				
+			});
+
+		</script>
+
+	</body>
+</html>
