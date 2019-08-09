@@ -1977,6 +1977,9 @@ pre code {
     width: 15% !important;
     height: auto;
   }
+  #about{
+    display: none !important;
+  }
 }
 
 @media (max-width: 991.98px) {
