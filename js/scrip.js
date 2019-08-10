@@ -20,3 +20,8 @@ $(document).ready(function(){
   });
 });
 */
+
+<script src="js/wow.min.js"></script>
+              <script>
+              new WOW(window).init();
+              </script>
