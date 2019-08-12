@@ -291,9 +291,9 @@
   <!-- Animation wowjs -->
   <script src="js/wow.min.js"></script>
                 <script>
-                $(window).load(function(){
-                  new WOW(window).init();
-                  });
+                window.onload = function() {
+                new WOW().init();
+                };
                 </script>
 
   <!-- Plugin JavaScript -->
