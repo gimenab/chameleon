@@ -10,7 +10,7 @@
 
   <title>Plug In</title>
 
-  <!-- Animatio Wowjs -->
+  <!-- Animated -->
   <link rel="stylesheet" href="/css/animate.css">
 
   <!-- Font Awesome Icons -->
@@ -93,7 +93,6 @@
 
         </div>
         <div class="col-lg-8 align-self-baseline">
-
           <a class="btn btn-green btn-xl js-scroll-trigger fa-start" href="https://api.whatsapp.com/send?phone=+5493512455795&amp;text=Quiero una cotización">
           <i class="fab fa-whatsapp fa-2x"></i>Consultar</a>
 <!--<a class="btn btn-primary btn-xl js-scroll-trigger" href="#portfolio">Explorar trabajos</a>-->
@@ -292,9 +291,10 @@
   <!-- Animation wowjs -->
   <script src="js/wow.min.js"></script>
                 <script>
-                new WOW ().init();
+                $(window).load(function(){
+                  new WOW(window).init();
+                  });
                 </script>
-
 
   <!-- Plugin JavaScript -->
   <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
