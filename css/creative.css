@@ -3378,6 +3378,9 @@ input[type="button"].btn-block {
     right: 0;
     left: auto;
   }
+  p.text-white-50.mb-4 {
+    padding-top: 1rem;
+}
 }
 
 @media (min-width: 992px) {
