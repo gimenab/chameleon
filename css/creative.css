@@ -10772,7 +10772,7 @@ hr.light {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 72px);
-  background: url("../img/BOCETO_2.svg");
+  background: url("../img/background.png");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
