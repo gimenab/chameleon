@@ -26,8 +26,8 @@ let projects = [
     id: 1,
     name: "Web Tecnología",
     description: "lorem lorem lorem lorem lorem",
-    cover: "https://i.imgur.com/CSvJexJ.jpg",
-    images: ["https://i.imgur.com/CSvJexJ.jpg", "https://i.imgur.com/CSvJexJ.jpg", "https://i.imgur.com/CSvJexJ.jpg" ]
+    cover: "img/portfolio/thumbnails/2.jpg",
+    images: ["img/portfolio/fullsize/1.jpg", "img/portfolio/fullsize/03.jpg", "https://i.imgur.com/CSvJexJ.jpg" ]
   },
   {
     id: 2,
