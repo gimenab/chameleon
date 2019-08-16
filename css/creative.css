@@ -8374,9 +8374,9 @@ button.bg-dark:focus {
     bottom: 0px;
     top: unset !important;
   }
-  /*header.masthead {
-    background: url(../img/background.mobile.png)!important;
-}*/
+  header.masthead {
+    background: url(../img/background.mobile2.png);
+}
 }
 
 .fixed-top {
