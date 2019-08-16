@@ -6349,7 +6349,7 @@ a.close.disabled {
   .modal-dialog {
     /*max-width: 500px;*/
     margin: 1.75rem auto;
-    
+
   }
   .modal-dialog-scrollable {
     max-height: calc(100% - 3.5rem);
@@ -10889,5 +10889,6 @@ padding-right: 0.2em;
 }
 .modal-dialog{
 width: 80% !important;
+margin: auto;
 
 }
