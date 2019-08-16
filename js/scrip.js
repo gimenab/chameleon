@@ -35,5 +35,33 @@ let projects = [
     description: "lorem lorem lorem lorem lorem",
     cover: "https://i.imgur.com/CSvJexJ.jpg",
     images: ["https://i.imgur.com/CSvJexJ.jpg", "https://i.imgur.com/CSvJexJ.jpg", "https://i.imgur.com/CSvJexJ.jpg" ]
+  },
+  {
+    id: 3,
+    name: "Web Tecnología",
+    description: "lorem lorem lorem lorem lorem",
+    cover: "https://i.imgur.com/CSvJexJ.jpg",
+    images: ["https://i.imgur.com/CSvJexJ.jpg", "https://i.imgur.com/CSvJexJ.jpg", "https://i.imgur.com/CSvJexJ.jpg" ]
+  },
+  {
+    id: 4,
+    name: "Web Tecnología",
+    description: "lorem lorem lorem lorem lorem",
+    cover: "https://i.imgur.com/CSvJexJ.jpg",
+    images: ["https://i.imgur.com/CSvJexJ.jpg", "https://i.imgur.com/CSvJexJ.jpg", "https://i.imgur.com/CSvJexJ.jpg" ]
+  },
+  {
+    id: 5,
+    name: "Web Tecnología",
+    description: "lorem lorem lorem lorem lorem",
+    cover: "https://i.imgur.com/CSvJexJ.jpg",
+    images: ["https://i.imgur.com/CSvJexJ.jpg", "https://i.imgur.com/CSvJexJ.jpg", "https://i.imgur.com/CSvJexJ.jpg" ]
+  },
+  {
+    id: 6,
+    name: "Web Tecnología",
+    description: "lorem lorem lorem lorem lorem",
+    cover: "https://i.imgur.com/CSvJexJ.jpg",
+    images: ["https://i.imgur.com/CSvJexJ.jpg", "https://i.imgur.com/CSvJexJ.jpg", "https://i.imgur.com/CSvJexJ.jpg" ]
   }
 ];
