@@ -20,3 +20,20 @@ $(document).ready(function(){
   });
 });
 */
+
+let projects = [
+  {
+    id: 1,
+    name: "Web Tecnología",
+    description: "lorem lorem lorem lorem lorem",
+    cover: "https://i.imgur.com/CSvJexJ.jpg",
+    images: ["https://i.imgur.com/CSvJexJ.jpg", "https://i.imgur.com/CSvJexJ.jpg", "https://i.imgur.com/CSvJexJ.jpg" ]
+  },
+  {
+    id: 2,
+    name: "Web Tecnología",
+    description: "lorem lorem lorem lorem lorem",
+    cover: "https://i.imgur.com/CSvJexJ.jpg",
+    images: ["https://i.imgur.com/CSvJexJ.jpg", "https://i.imgur.com/CSvJexJ.jpg", "https://i.imgur.com/CSvJexJ.jpg" ]
+  }
+];

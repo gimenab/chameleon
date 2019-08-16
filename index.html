@@ -109,11 +109,11 @@
         <div class="col-lg-8 text-center">
           <h2 class="text-white mt-0">Páginas de promoción, venta, suscripción o descarga</h2>
           <hr class="divider light my-4">
-<!--<<<<< Updated upstream
-          <p class="text-white-50 mb-4"></p>
-          <a class="btn btn-light btn-xl js-scroll-trigger" href="#portfolio">Mirar trabajos</a>
-          <p class="text-white-50 mb-4">Construimos soluciones digitales. Diseño gráfico & web. Marketing digital</p>
->>>>>> Stashed changes-->
+          <!--<<<<< Updated upstream
+            <p class="text-white-50 mb-4"></p>
+            <a class="btn btn-light btn-xl js-scroll-trigger" href="#portfolio">Mirar trabajos</a>
+            <p class="text-white-50 mb-4">Construimos soluciones digitales. Diseño gráfico & web. Marketing digital</p>
+          >>>>>> Stashed changes-->
           <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Ver trabajos</a>
         </div>
       </div>
@@ -153,30 +153,30 @@
     <div class="container-fluid p-0">
       <div class="row no-gutters">
         <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="https://i.imgur.com/CSvJexJ.jpg">
+          <div class="portfolio-box" data-toggle="modal" data-target="#exampleModal">
             <img class="img-fluid" src="https://i.imgur.com/CSvJexJ.jpg" alt="">
             <div class="portfolio-box-caption">
               <div class="project-category text-white-50">
-                Category
+                Sitio web responsivo
               </div>
               <div class="project-name">
-                Project Name
+                Alfred ai
               </div>
             </div>
-          </a>
+          </div>
         </div>
         <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/2.jpg">
+          <div class="portfolio-box">
               <img class="img-fluid" src="img/portfolio/thumbnails/2.jpg" alt="">
             <div class="portfolio-box-caption">
               <div class="project-category text-white-50">
-                Category
+                Sitio web responsivo
               </div>
               <div class="project-name">
                 Project Name
               </div>
             </div>
-          </a>
+          </div>
         </div>
         <div class="col-lg-4 col-sm-6">
           <a class="portfolio-box" href="img/portfolio/fullsize/3.jpg">
@@ -233,6 +233,31 @@
       </div>
     </div>
   </section>
+  <!-- Portfolio popup -->
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Web Responsive Tecnología</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem</p>
+          <img src="https://i.imgur.com/CSvJexJ.jpg" class="img-fluid mb-3" alt="alfre_1"/>
+          <img src="https://i.imgur.com/CSvJexJ.jpg" class="img-fluid mb-3" alt="alfred_2"/>
+          <img src="https://i.imgur.com/CSvJexJ.jpg" class="img-fluid mb-3" alt="alfred_3"/>
+          <img src="https://i.imgur.com/CSvJexJ.jpg" class="img-fluid mb-3" alt="alfred_4"/>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!-- Call to Action Section -->
   <section class="page-section bg-dark text-white" id= "cta2">
@@ -290,11 +315,11 @@
 
   <!-- Plugin JavaScript -->
   <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+  <!-- Plugin popup
   <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
-
+  -->
   <!-- Custom scripts for this template -->
   <script src="js/creative.min.js"></script>
   <script src="js/scrip.js"></script>
 </body>
-
 </html>
