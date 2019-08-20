@@ -151,106 +151,27 @@
   <!-- Portfolio Section -->
   <section id="portfolio">
     <div class="container-fluid p-0">
-      <div class="row no-gutters">
-        <div class="col-lg-4 col-sm-6">
-          <div class="portfolio-box" data-toggle="modal" data-target="#exampleModal">
-            <img class="img-fluid" src="https://i.imgur.com/CSvJexJ.jpg" alt="">
-            <div class="portfolio-box-caption">
-              <div class="project-category text-white-50">
-                Sitio web responsivo
-              </div>
-              <div class="project-name">
-                Alfred ai
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <div class="portfolio-box"href="img/portfolio/fullsize/2.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/2.jpg" alt="">
-            <div class="portfolio-box-caption">
-              <div class="project-category text-white-50">
-                Sitio web responsivo
-              </div>
-              <div class="project-name">
-                Project Name
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/3.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/3.jpg" alt="">
-            <div class="portfolio-box-caption">
-              <div class="project-category text-white-50">
-                web
-              </div>
-              <div class="project-name">
-                hola
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/4.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/4.jpg" alt="">
-            <div class="portfolio-box-caption">
-              <div class="project-category text-white-50">
-                Category
-              </div>
-              <div class="project-name">
-                Project Name
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/5.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/5.jpg" alt="">
-            <div class="portfolio-box-caption">
-              <div class="project-category text-white-50">
-                Category
-              </div>
-              <div class="project-name">
-                Project Name
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/6.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/6.jpg" alt="">
-            <div class="portfolio-box-caption p-3">
-              <div class="project-category text-white-50">
-                Category
-              </div>
-              <div class="project-name">
-                Project Name
-              </div>
-            </div>
-          </a>
-        </div>
+      <div class="row no-gutters" id="projectsContainer">
+        <!-- LISTADO DE PROJECTO QUE AGREGAMOS DESDE JAVASCRIPT-->
       </div>
     </div>
   </section>
   <!-- Portfolio popup -->
   <!-- Modal -->
-  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog">
+  <div class="modal fade" id="projectModal" tabindex="-1" role="dialog">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Web Responsive Tecnología</h5>
+          <h5 class="modal-title" id="projectModalTitle"></h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
-        <div class="modal-body">
-          <p>Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem</p>
-          <img src="img/portfolio/fullsize/1.jpg" class="img-fluid mb-3" alt="alfre_1"/>
-          <img src="img/portfolio/fullsize/03.jpg" class="img-fluid mb-3" alt="alfred_2"/>
+        <div class="modal-body" id="projectModalBody">
+      
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
         </div>
       </div>
     </div>
