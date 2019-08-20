@@ -10889,7 +10889,7 @@ padding-right: 0.2em;
 
 }
 .modal-dialog{
-width: 80% !important;
-margin: auto;
-
+      width: 100% !important;
+      margin: 0;
+      padding: 0;
 }
