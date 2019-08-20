@@ -573,11 +573,6 @@ pre code {
   .container {
     max-width: 720px;
   }
-  .modal-dialog{
-        width: 80% !important;
-        margin: 0;
-        padding: 0;
-  }
 }
 
 @media (min-width: 992px) {
@@ -10897,4 +10892,11 @@ font-size: 1.5em;
 font-weight: lighter;
 padding-right: 0.2em;
 
+}
+@media (min-width: 768px) {
+  .modal-dialog{
+        width: 80% !important;
+        margin: 0;
+        padding: 0;
+  }
 }
