@@ -10896,7 +10896,6 @@ padding-right: 0.2em;
 @media (min-width: 768px) {
   .modal-dialog{
         width: 80% !important;
-        margin: 0;
-        padding: 0;
+      
   }
 }
