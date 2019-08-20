@@ -8379,6 +8379,9 @@ button.bg-dark:focus {
         margin: 0;
         padding: 0;
   }
+  header.masthead {
+    background: url("../img/background.mobile.png")!important;
+  }
 
 }
 
@@ -10896,6 +10899,6 @@ padding-right: 0.2em;
 @media (min-width: 768px) {
   .modal-dialog{
         width: 80% !important;
-      
+
   }
 }
