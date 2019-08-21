@@ -25,8 +25,8 @@ $(document).ready(function(){
 let projects = [
   {
     id: 1,
-    name: "Web Tecnología",
-    description: "lorem lorem lorem lorem lorem",
+    name: "Página de información",
+    description: "Para tener una exitosa web de tecnología",
     cover: "img/portfolio/thumbnails/1.jpg",
     images: ["img/portfolio/fullsize/1.jpg", "img/portfolio/fullsize/03.jpg"]
   },
