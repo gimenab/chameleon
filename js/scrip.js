@@ -32,37 +32,42 @@ let projects = [
   },
   {
     id: 2,
-    name: "Web Tecnología",
-    description: "lorem lorem lorem lorem lorem",
+    name: "Blog de noticias",
+    description: "Sitios webs deportivos",
     cover: "img/portfolio/thumbnails/2.jpg",
     images: ["img/portfolio/fullsize/2.jpg", "img/portfolio/fullsize/6.jpg", "img/portfolio/fullsize/7.jpg"]
   },
   {
     id: 3,
-    name: "Web Tecnología",
-    description: "lorem lorem lorem lorem lorem",
+    name: "Fotografía digital",
+    description: "Foto producto",
     cover: "img/portfolio/thumbnails/3.jpg",
     images: ["img/portfolio/fullsize/3.jpg"]
   },
+
+  //definir album 4
   {
     id: 4,
-    name: "Web Tecnología",
-    description: "lorem lorem lorem lorem lorem",
+    name: "Páginas de información con videos",
+    description: "Contenido para mostrar servicios",
     cover: "img/portfolio/thumbnails/4.jpg",
     images: ["img/portfolio/fullsize/4.jpg", "img/portfolio/fullsize/5.jpg", "img/portfolio/fullsize/06.jpg" ]
   },
+
+  //definir album 5
   {
     id: 5,
-    name: "Web Tecnología",
-    description: "lorem lorem lorem lorem lorem",
+    name: "Páginas responsivas",
+    description: "Visualizaciones en diferentes dispositivos",
     cover: "img/portfolio/thumbnails/01.jpg",
     images: ["img/portfolio/fullsize/01.jpg"]
   },
+
   //definir album 6
   {
     id: 6,
-    name: "Web Tecnología",
-    description: "lorem lorem lorem lorem lorem",
+    name: "Página de información",
+    description: "Para tener una exitosa web de tecnología",
     cover: "https://i.imgur.com/CSvJexJ.jpg",
     images: ["https://i.imgur.com/CSvJexJ.jpg", "https://i.imgur.com/CSvJexJ.jpg", "https://i.imgur.com/CSvJexJ.jpg" ]
   }
