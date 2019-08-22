@@ -82,10 +82,37 @@ function escucharClickSobreProjectos() {
   $(".portfolio-box").on("click",function(event){
     
     let project_id = $(this).data('ref');
+
+    const custom_project = projects.find(function(project) {
+      return project.id == project_id;
+    });
+
+    console.log(custom_project);
+    console.log($("#projectModalTitle"));
+    
+    // Agregramos el titulo https://api.jquery.com/text/
+    $("#projectModalTitle").html(custom_project.name);
+    
+    // Definimos el elemento body de la descripcion del proyecto en una variable para usarlo varias veces
+    let body = $("#projectModalBody");
+    
+    // Limpiamos el body https://api.jquery.com/empty/
+    body.empty();
+
+    // Agregamos la descripcion https://api.jquery.com/append/
+    body.append($('<p>' + custom_project.description + '</p>'));
+    
+    // Agregamos todas las imagenes
+    const images = custom_project.images.map(image => $('<img src="' + image + '" class="img-fluid rounded mb-3" />' ));
+    body.append(images);
+    
+    // Abrir un modal en bootstrap   https://getbootstrap.com/docs/4.3/components/modal/#modalshow
+    $("#projectModal").modal('show');
+
+/*
     for (let i=0; i<projects.length; i++) {
       if (projects[i]["id"] == project_id){
         console.log(projects[i]);
-        //img-fluid mb-3
         console.log($("#projectModalTitle"));
         
         // Agregramos el titulo https://api.jquery.com/text/
@@ -110,7 +137,7 @@ function escucharClickSobreProjectos() {
 
         break;
       }
-    }
+    }*/
   });
 }
 
