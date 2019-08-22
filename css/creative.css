@@ -8381,7 +8381,14 @@ button.bg-dark:focus {
         margin: 0;
         padding: 0;
   }
-}
+  header.masthead {
+    
+      background: url(../img/background.mobile.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: scroll;
+      background-size: cover;
+  }
 
 .fixed-top {
   position: fixed;
