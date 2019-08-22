@@ -8382,8 +8382,8 @@ button.bg-dark:focus {
         padding: 0;
   }
   header.masthead {
-    
-      background: url(../img/background.mobile.png);
+      padding-bottom:calc(10rem - 72px);
+      background: url(../img/background.mobile.png)!important;
       background-position: center;
       background-repeat: no-repeat;
       background-attachment: scroll;
