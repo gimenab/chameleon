@@ -22,7 +22,7 @@ $(document).ready(function(){
 */
 
 /* Project list */
-let projects = [
+const projects = [
   {
     id: 1,
     name: "Página de información",
@@ -88,7 +88,6 @@ function escucharClickSobreProjectos() {
     });
 
     console.log(custom_project);
-    console.log($("#projectModalTitle"));
     
     // Agregramos el titulo https://api.jquery.com/text/
     $("#projectModalTitle").html(custom_project.name);
@@ -103,7 +102,11 @@ function escucharClickSobreProjectos() {
     body.append($('<p>' + custom_project.description + '</p>'));
     
     // Agregamos todas las imagenes
-    const images = custom_project.images.map(image => $('<img src="' + image + '" class="img-fluid rounded mb-3" />' ));
+    // const images = custom_project.images.map(image => $('<img src="' + image + '" class="img-fluid rounded mb-3" />' ));
+    const images = custom_project.images.map(function(image) {
+     return  $('<img src="' + image + '" class="img-fluid rounded mb-3" />' );
+    })
+
     body.append(images);
     
     // Abrir un modal en bootstrap   https://getbootstrap.com/docs/4.3/components/modal/#modalshow
@@ -168,4 +171,5 @@ function cargarProjectos() {
 window.onload = function() {
   console.log("Onload cargar projecto");
   cargarProjectos();
+  new WOW().init();
 }
