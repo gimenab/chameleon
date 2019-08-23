@@ -8381,14 +8381,14 @@ button.bg-dark:focus {
         margin: 0;
         padding: 0;
   }
-  header.masthead {
+  /*header.masthead {
       padding-bottom:calc(10rem - 72px);
       background: url(../img/background.mobile.png)!important;
       background-position: center;
       background-repeat: no-repeat;
       background-attachment: scroll;
       background-size: cover;
-  }
+  }*/
 }
 
 
