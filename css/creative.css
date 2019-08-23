@@ -8389,6 +8389,8 @@ button.bg-dark:focus {
       background-attachment: scroll;
       background-size: cover;
   }
+}
+
 
 .fixed-top {
   position: fixed;
