@@ -10908,14 +10908,3 @@ padding-right: 0.2em;
 
 }
 }
-
-@media (max-width: 768px) {
-  header.masthead {
-      padding-top: 10rem;
-      background: url(../img/background.mobile.png)!important;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-attachment: scroll;
-      background-size: cover;
-  }
- }
