@@ -10906,7 +10906,8 @@ padding-right: 0.2em;
   .modal-dialog{
         width: 80% !important;
 
-/*  }
+}
+/*
   header.masthead {
       padding-top: 10rem;
       background: url(../img/background.png)!important;
@@ -10916,6 +10917,7 @@ padding-right: 0.2em;
       background-size: cover;
   }*/
 }
+
 @media (max-width: 768px) {
   header.masthead {
       padding-top: 10rem;
