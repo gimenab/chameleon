@@ -157,7 +157,7 @@ function cargarProjectos() {
               <img class="img-fluid" src="`+ projects[i]['cover'] +`" alt="">
               <div class="portfolio-box-caption">
                 <div class="project-category text-white-50">
-                  Sitio web responsivo
+                  `+ projects[i]['category'] + `
                 </div>
                 <div class="project-name">
                   `+ projects[i]['name'] +`

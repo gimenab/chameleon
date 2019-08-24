@@ -10856,11 +10856,11 @@ header.masthead h1 {
   -ms-flex-direction: column;
   flex-direction: column;
   width: 100%;
-  height: 100%;
+  height: 60px;
   position: absolute;
   bottom: 0;
   text-align: center;
-  opacity: 0;
+  opacity: 0.98;
   color: #fff;
   background: rgb(255, 139, 139);
   -webkit-transition: opacity 0.25s ease;
@@ -10878,10 +10878,10 @@ header.masthead h1 {
 #portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-name {
   font-size: 1.2rem;
 }
-
+/*
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
-}
+}*/
 img.img-fluid.logo {
     width: 150px;
     display: none;
