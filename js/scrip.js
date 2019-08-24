@@ -81,8 +81,6 @@ let projects = [
 
 
 
-
-
 function escucharClickSobreProjectos() {
   /* Show project info */
   $(".portfolio-box").on("click",function(event){
@@ -114,36 +112,6 @@ function escucharClickSobreProjectos() {
 
     // Abrir un modal en bootstrap   https://getbootstrap.com/docs/4.3/components/modal/#modalshow
     $("#projectModal").modal('show');
-
-/*
-    for (let i=0; i<projects.length; i++) {
-      if (projects[i]["id"] == project_id){
-        console.log(projects[i]);
-        console.log($("#projectModalTitle"));
-
-        // Agregramos el titulo https://api.jquery.com/text/
-        $("#projectModalTitle").html(projects[i]['name']);
-
-        // Definimos el elemento body de la descripcion del proyecto en una variable para usarlo varias veces
-        let body = $("#projectModalBody");
-
-        // Limpiamos el body https://api.jquery.com/empty/
-        body.empty();
-
-        // Agregamos la descripcion https://api.jquery.com/append/
-        body.append($('<p>' + projects[i].description + '</p>'));
-
-        // Agregamos todas las imagenes
-        for(let x = 0; x < projects[i]['images'].length; x++) {
-          body.append($('<img src="' + projects[i]['images'][x] + '" class="img-fluid rounded mb-3" />' ));
-        }
-
-        // Abrir un modal en bootstrap   https://getbootstrap.com/docs/4.3/components/modal/#modalshow
-        $("#projectModal").modal('show');
-
-        break;
-      }
-    }*/
   });
 }
 
@@ -170,6 +138,47 @@ function cargarProjectos() {
   }
   escucharClickSobreProjectos();
 }
+
+
+
+// Formulario
+
+// Escuchar click sobre a
+// Show form info
+function escucharClickSobreEmail() {
+  $("#modalForm").on("click",function(event){
+    console.log ("Vamos a ver que sale...");
+  }
+}
+
+/*
+// Cargar formulario
+function cargarFormulario() {
+  console.log("Cargando formulario....");
+  for (let i = 0; i < form.length; i ++) {
+    $(".d-block").append($(
+
+    `<form>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+      </div>
+      <div class="form-group form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    `
+   ));
+*/
+
+
 
 window.onload = function() {
   console.log("Onload cargar projecto");
