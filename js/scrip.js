@@ -174,4 +174,5 @@ function cargarProjectos() {
 window.onload = function() {
   console.log("Onload cargar projecto");
   cargarProjectos();
+  new WOW().init();
 }
