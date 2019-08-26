@@ -10878,8 +10878,8 @@ header.masthead h1 {
 #portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-name {
   font-size: 1.2rem;
 }
-/*
-#portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption {
+
+/*#portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
 }*/
 img.img-fluid.logo {
@@ -10910,6 +10910,7 @@ padding-right: 0.2em;
 
 }
 }
+
 .portfolio-box-caption {
     background-color: #540bc8 !important;
 }
