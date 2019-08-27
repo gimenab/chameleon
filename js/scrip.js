@@ -148,7 +148,7 @@ function cargarProjectos() {
 function escucharClickSobreEmail() {
   $("#modalForm").on("click",function(event){
     console.log ("Vamos a ver que sale...");
-  }
+  });
 }
 
 /*
@@ -184,4 +184,5 @@ window.onload = function() {
   console.log("Onload cargar projecto");
   cargarProjectos();
   new WOW().init();
+  escucharClickSobreEmail();
 }
