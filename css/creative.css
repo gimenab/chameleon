@@ -10855,7 +10855,7 @@ header.masthead h1 {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  width: 100%;
+  width: auto;
   height: 60px;
   position: absolute;
   bottom: 0;
@@ -10866,6 +10866,9 @@ header.masthead h1 {
   -webkit-transition: opacity 0.25s ease;
   transition: opacity 0.25s ease;
   text-align: center;
+  right: 0px;
+  bottom: 15px;
+  padding: 0px 15px;
 }
 
 #portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-category {
