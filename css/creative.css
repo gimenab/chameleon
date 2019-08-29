@@ -8381,14 +8381,6 @@ button.bg-dark:focus {
         margin: 0;
         padding: 0;
   }
-  /*header.masthead {
-      padding-bottom:calc(10rem - 72px);
-      background: url(../img/background.mobile.png)!important;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-attachment: scroll;
-      background-size: cover;
-  }*/
 }
 
 
@@ -10916,4 +10908,17 @@ padding-right: 0.2em;
 
 .portfolio-box-caption {
     background-color: #540bc8 !important;
+}
+
+@media (max-width: 768px) {
+  header.masthead {
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - 72px);
+    background: url(../img/background.mobile.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
 }
