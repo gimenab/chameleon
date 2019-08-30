@@ -72,9 +72,9 @@ let projects = [
   {
     id: 6,
     name: "Página de información",
-    description: "Para tener una exitosa web de tecnología",
-    cover: "https://i.imgur.com/CSvJexJ.jpg",
-    images: ["https://i.imgur.com/CSvJexJ.jpg", "https://i.imgur.com/CSvJexJ.jpg", "https://i.imgur.com/CSvJexJ.jpg" ],
+    description: "Contenido para mostrar servicios",
+    cover: "img/portfolio/thumbnails/9II.jpg",
+    images: ["img/portfolio/fullsize/9II.jpg", "img/portfolio/fullsize/9.jpg", "img/portfolio/fullsize/9I.jpg" ],
     category: "promo"
   }
 ];
