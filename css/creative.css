@@ -8370,7 +8370,12 @@ button.bg-dark:focus {
   position: -webkit-sticky !important;
   position: sticky !important;
 }
-
+.mobile-header{
+  display:none;
+}
+  strong.mobile{
+    display:none;
+  }
 @media (max-width: 768px) {
   .fixed-top{
     bottom: 0px;
@@ -8380,6 +8385,20 @@ button.bg-dark:focus {
         width: 100% !important;
         margin: 0;
         padding: 0;
+  }
+  .mobile-header{
+        display:block;
+        width: 100% !important;
+        height: auto;
+  }
+  img.logo-header {
+      width: 80%;
+  }
+  strong.mobile{
+    display: block;
+  }
+  strong.web{
+    display: none;
   }
 }
 
