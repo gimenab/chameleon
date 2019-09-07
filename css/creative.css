@@ -8400,6 +8400,9 @@ button.bg-dark:focus {
   strong.web{
     display: none;
   }
+  .col-lg-8.align-self-baseline {
+    margin-top: 3rem;
+}
 }
 
 
