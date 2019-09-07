@@ -8376,6 +8376,9 @@ button.bg-dark:focus {
   strong.mobile{
     display:none;
   }
+.subtitle_mobile {
+    display:none !important;
+  }
 @media (max-width: 768px) {
   .fixed-top{
     bottom: 0px;
@@ -8402,6 +8405,12 @@ button.bg-dark:focus {
   }
   .col-lg-8.align-self-baseline {
     margin-top: 3rem;
+}
+.subtitle_mobile {
+display:block !important;
+}
+.subtitle{
+display:none;
 }
 }
 
