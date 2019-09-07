@@ -8381,6 +8381,14 @@ button.bg-dark:focus {
         margin: 0;
         padding: 0;
   }
+  .ext-muted, .bg-light {
+     color: #ffffff!important;
+  }
+
+  .small.text-center.text-muted {
+     display: none;
+  }
+
 }
 
 
