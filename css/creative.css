@@ -8383,9 +8383,11 @@ button.bg-dark:focus {
   }.small.text-center.text-muted {
      display: none;
   }
-  .ext-muted, .bg-light {
+  .ext-muted {
      color: #ffffff!important;
-  }
+  }.bg-light {
+    background-color: #ffffff !important;
+}
 
 
 }
