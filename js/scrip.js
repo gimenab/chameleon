@@ -140,43 +140,45 @@ function cargarProjectos() {
 }
 
 
+// Formulario Submit
+document.querySelector("#contactModal form").addEventListener("submit", function(e){
+  e.preventDefault();    //stop form from submitting
 
-// Formulario
+  let email = document.getElementById("contactEmail").value;
+  let message = document.getElementById("contactMessage").value;
+  
+  console.log("Este es el email " + email);
+  console.log("Este es el mensaje " + message);
+  console.log("Enviar datos");
 
-// Escuchar click sobre a
-// Show form info
-function escucharClickSobreEmail() {
-  $("#modalForm").on("click",function(event){
-    console.log ("Vamos a ver que sale...");
-  });
-}
+  document.getElementById("contactEmail").value = "";
+  document.getElementById("contactMessage").value = "";
 
-/*
-// Cargar formulario
-function cargarFormulario() {
-  console.log("Cargando formulario....");
-  for (let i = 0; i < form.length; i ++) {
-    $(".d-block").append($(
+  // ocultar inputsBody
+  document.getElementById("inputsBody").style.display = "none";
 
-    `<form>
-      <div class="form-group">
-        <label for="exampleInputEmail1">Email address</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-      </div>
-      <div class="form-group">
-        <label for="exampleInputPassword1">Password</label>
-        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-      </div>
-      <div class="form-group form-check">
-        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-        <label class="form-check-label" for="exampleCheck1">Check me out</label>
-      </div>
-      <button type="submit" class="btn btn-primary">Submit</button>
-    </form>
-    `
-   ));
-*/
+  //Ocultar boton enviar
+  document.getElementById("btnContactSubmit").style.display = "none";
+
+  // mostrar texto
+  document.getElementById("textBody").style.display = "block";
+
+  setTimeout(function(){
+    // cerrar modal
+    $('#contactModal').modal('hide');
+
+    setTimeout(function(){  
+      // ocultar texto
+      document.getElementById("textBody").style.display = "none";
+      
+      // mostrar form
+      document.getElementById("inputsBody").style.display = "block";
+
+      //Mostrar boton enviar
+      document.getElementById("btnContactSubmit").style.display = "block";
+    }, 500);
+  }, 2000);
+});
 
 
 
@@ -184,5 +186,4 @@ window.onload = function() {
   console.log("Onload cargar projecto");
   cargarProjectos();
   new WOW().init();
-  escucharClickSobreEmail();
 }
