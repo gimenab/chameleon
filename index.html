@@ -238,11 +238,30 @@
 
   <!-- Plugin JavaScript -->
   <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-  <!-- Plugin popup
-  <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
-  -->
+  
   <!-- Custom scripts for this template -->
   <script src="js/creative.min.js"></script>
   <script src="js/scrip.js"></script>
+
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/6.6.1/firebase-app.js"></script>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+      https://firebase.google.com/docs/web/setup#config-web-app -->
+  <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyAHtCd-oW3ZAYAXwqiz1duyqA8LJCGqmQw",
+      authDomain: "plugin-form.firebaseapp.com",
+      databaseURL: "https://plugin-form.firebaseio.com",
+      projectId: "plugin-form",
+      storageBucket: "",
+      messagingSenderId: "733715971992",
+      appId: "1:733715971992:web:cd3af247aae4473d0135ed"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+  </script>
 </body>
 </html>
