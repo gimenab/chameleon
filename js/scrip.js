@@ -206,7 +206,6 @@ document.querySelector("#contactModal form").addEventListener("submit", function
 
 
 window.onload = function() {
-  console.log("Onload cargar projecto");
   cargarProjectos();
   new WOW().init();
 }
