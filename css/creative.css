@@ -8366,7 +8366,15 @@ button.bg-dark:focus {
   position: -webkit-sticky !important;
   position: sticky !important;
 }
-
+.mobile-header{
+  display:none;
+}
+  strong.mobile{
+    display:none;
+  }
+.subtitle_mobile {
+    display:none !important;
+  }
 @media (max-width: 768px) {
   .fixed-top{
     bottom: 0px;
@@ -8377,14 +8385,29 @@ button.bg-dark:focus {
         margin: 0;
         padding: 0;
   }
-  /*header.masthead {
-      padding-bottom:calc(10rem - 72px);
-      background: url(../img/background.mobile.png)!important;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-attachment: scroll;
-      background-size: cover;
-  }*/
+  .mobile-header{
+        display:block;
+        width: 100% !important;
+        height: auto;
+  }
+  img.logo-header {
+      width: 80%;
+  }
+  strong.mobile{
+    display: block;
+  }
+  strong.web{
+    display: none;
+  }
+  .col-lg-8.align-self-baseline {
+    margin-top: 3rem;
+}
+.subtitle_mobile {
+display:block !important;
+}
+.subtitle{
+display:none;
+}
 }
 
 
@@ -10741,12 +10764,15 @@ hr.light {
   #mainNav {
     -webkit-box-shadow: none;
     box-shadow: none;
+
     background-color: transparent;
   }
   #mainNav .navbar-brand {
     color: rgba(255, 255, 255, 0.7);
+    color: #540bc8;
   }
   #mainNav .navbar-brand:hover {
+
     color: #fff;
   }
   #mainNav .navbar-nav .nav-item .nav-link {
@@ -10763,7 +10789,7 @@ hr.light {
     -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
     background-color: #fff;
-
+}
   .img-fluid .logo {
     display: none !important;
   }
@@ -10805,6 +10831,7 @@ header.masthead h1 {
     min-height: 40rem;
     padding-top: 72px;
     padding-bottom: 0;
+
   }
   header.masthead p {
     font-size: 1.15rem;
@@ -10877,8 +10904,8 @@ header.masthead h1 {
 #portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-name {
   font-size: 1.2rem;
 }
-/*
-#portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption {
+
+/*#portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
 }*/
 img.img-fluid.logo {
@@ -10907,4 +10934,29 @@ padding-right: 0.2em;
   .modal-dialog{
         width: 80% !important;
 }
+}
+
+.portfolio-box-caption {
+    background-color: #540bc8 !important;
+    opacity: 0.9!important;
+}
+header.masthead {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 72px);
+  background: url("../img/background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+ @media (max-width: 768px) {
+    header.masthead {
+      padding-top: 10rem;
+      padding-bottom: calc(10rem - 32px);
+      background: url("../img/bmobile.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: scroll;
+      background-size: cover;
+    }
 }

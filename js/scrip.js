@@ -72,9 +72,9 @@ let projects = [
   {
     id: 6,
     name: "Página de información",
-    description: "Para tener una exitosa web de tecnología",
-    cover: "https://i.imgur.com/CSvJexJ.jpg",
-    images: ["https://i.imgur.com/CSvJexJ.jpg", "https://i.imgur.com/CSvJexJ.jpg", "https://i.imgur.com/CSvJexJ.jpg" ],
+    description: "Contenido para mostrar servicios",
+    cover: "img/portfolio/thumbnails/9II.jpg",
+    images: ["img/portfolio/fullsize/9II.jpg", "img/portfolio/fullsize/9.jpg", "img/portfolio/fullsize/9I.jpg" ],
     category: "promo"
   }
 ];
@@ -139,17 +139,55 @@ function cargarProjectos() {
   escucharClickSobreProjectos();
 }
 
+/*
+* Funcion para guardar datos de contacto
+* params: data (Object)
+*/
+function saveContactForm(data) {
+  firebase.database().ref('contact').push(data) // Hacemos referencia al método database de el SDK y hacemos referencia el nombre del objeto que contendrá nuestros registros y empujamos los nuevos envios de datos
+    .then(function(){
+       // Si la petición es correcta y almaceno los datos mostramos un mensaje al usuario.
+       closeModalContact();
+    })
+    .catch(function(){
+      alert('mensaje No guardado'); // En caso de ocurrir un error le mostramos al usuario que ocurrió un error.
+    });
+};
+
+/*
+* Funcion para cerrar y limpiar el modal de contacto
+*/
+function closeModalContact() {
+  // cerrar modal
+  $('#contactModal').modal('hide');
+
+  setTimeout(function(){  
+    // ocultar texto
+    document.getElementById("textBody").style.display = "none";
+    
+    // mostrar form
+    document.getElementById("inputsBody").style.display = "block";
+
+    //Mostrar boton enviar
+    document.getElementById("btnContactSubmit").style.display = "block";
+  }, 500);
+}
 
 // Formulario Submit
 document.querySelector("#contactModal form").addEventListener("submit", function(e){
   e.preventDefault();    //stop form from submitting
 
-  let email = document.getElementById("contactEmail").value;
-  let message = document.getElementById("contactMessage").value;
+  const email = document.getElementById("contactEmail").value;
+  const message = document.getElementById("contactMessage").value;
   
   console.log("Este es el email " + email);
   console.log("Este es el mensaje " + message);
   console.log("Enviar datos");
+  const data = {
+    'email': email,
+    'mensaje': message,
+  }; // Creamos un objecto con todos los elementos de nuestro formulario.
+  saveContactForm(data); // Enviamos la información obtenida por el usuario a la función que se encargara de guardar la información en Firebase
 
   document.getElementById("contactEmail").value = "";
   document.getElementById("contactMessage").value = "";
@@ -163,21 +201,6 @@ document.querySelector("#contactModal form").addEventListener("submit", function
   // mostrar texto
   document.getElementById("textBody").style.display = "block";
 
-  setTimeout(function(){
-    // cerrar modal
-    $('#contactModal').modal('hide');
-
-    setTimeout(function(){  
-      // ocultar texto
-      document.getElementById("textBody").style.display = "none";
-      
-      // mostrar form
-      document.getElementById("inputsBody").style.display = "block";
-
-      //Mostrar boton enviar
-      document.getElementById("btnContactSubmit").style.display = "block";
-    }, 500);
-  }, 2000);
 });
 
 
