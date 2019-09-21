@@ -10743,6 +10743,14 @@ hr.light {
 #mainNav .navbar-nav .nav-item .nav-link.active {
   color: #540bc8 !important;
 }
+img.logo-plugin {
+    width: 25px;
+}
+@media (min-width:500px){
+  img.logo-plugin{
+    display:none;
+  }
+    }
 
 @media (max-width: 500px){
   li.nav-item {
@@ -10750,12 +10758,16 @@ hr.light {
     flex: 1;
   }
   ul.navbar-nav {
-    display: flex;
+    /*display: flex;*/
+    display:contents;
     flex-direction: row;
     width: 100%;
   }
   li.nav-item a.active {
     border-top: solid;
+  }
+  p.logo-name{
+    display: none;
   }
 }
 
@@ -10958,4 +10970,12 @@ header.masthead {
       background-attachment: scroll;
       background-size: cover;
     }
+}
+
+@media (max-width: 991.98px){
+.navbar-expand-lg > .container {
+    padding-right: 0;
+    padding-left: 0;
+    margin-top: 0.5rem;
+}
 }
