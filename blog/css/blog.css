@@ -427,6 +427,9 @@ h3, .h3 {
 header.masthead h1 {
   font-size: 3.25rem;
 }
+p{
+  font-family: "IBM Plex Sans", "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
 .btn .post-preview > a > .post-subtitle, .post-preview > .post-meta, .btn-primary{
   font-family: "IBM Plex Sans", "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
@@ -460,4 +463,21 @@ header.masthead h1 {
     padding:  0 1rem ;
     text-transform: lowercase;
 
+}
+img.logo-plugin{
+    width: 25px;
+}
+
+@media (max-width: 992px) {
+ a.nav-link {
+    color: #6c757d !important ;
+    }
+
+
+}
+.post-preview > a:focus, .post-preview > a:hover {
+    color: #540bc8 !important;
+}
+img.logo-plugin{
+    width: 25px;
 }
