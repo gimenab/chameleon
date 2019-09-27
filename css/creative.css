@@ -8400,13 +8400,16 @@ button.bg-dark:focus {
   }
   .col-lg-8.align-self-baseline {
     margin-top: 3rem;
-}
-.subtitle_mobile {
-display:block !important;
-}
-.subtitle{
-display:none;
-}
+  }
+  .subtitle_mobile {
+  display:block !important;
+  }
+  .subtitle{
+  display:none;
+  }
+  .modal-content {
+    position: fixed;
+  }
 }
 
 
