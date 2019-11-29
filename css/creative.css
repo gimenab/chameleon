@@ -562,6 +562,10 @@ pre code {
   margin-left: auto;
 }
 
+.container ul {
+  padding-top: 32px;
+}
+
 @media (min-width: 576px) {
   .container {
     max-width: 540px;
