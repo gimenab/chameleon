@@ -10782,8 +10782,7 @@ img.logo-plugin {
   #mainNav {
     -webkit-box-shadow: none;
     box-shadow: none;
-
-    background-color: #6B71BA;
+    background-color: transparent;
   }
   #mainNav .navbar-brand {
     color: rgba(255, 255, 255, 0.7);
@@ -10794,7 +10793,6 @@ img.logo-plugin {
     color: #fff;
   }
   #mainNav .navbar-nav .nav-item .nav-link {
-    color: rgba(255, 255, 255, 0.7);
     padding: 0 1rem;
   }
   #mainNav .navbar-nav .nav-item .nav-link:hover {
@@ -10930,7 +10928,7 @@ header.masthead h1 {
   opacity: 1;
 }*/
 img.img-fluid.logo {
-    width: 150px;
+    width: 58px;
     display: none;
 }
 
