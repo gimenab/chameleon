@@ -160,13 +160,13 @@ sup {
 }
 
 a {
-  color: #540bc8;
+  color: #212529;
   text-decoration: none;
   background-color: transparent;
 }
 
 a:hover {
-  color: #ff8b8b;
+  color: #2e3594;
   text-decoration: underline;
 }
 
@@ -2621,8 +2621,8 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #540bc8;
-  border-color: #540bc8;
+  background-color: #2e3594;
+  border-color: #2e3594;
 }
 
 .btn-primary:hover {
@@ -6295,7 +6295,7 @@ a.close.disabled {
   border-bottom: 1px solid #dee2e6;
   border-top-left-radius: 0.3rem;
   border-top-right-radius: 0.3rem;
-  background-color: #6f42c1;
+  background-color: #2e3594;
 }
 
 .modal-header .close {
@@ -6961,7 +6961,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background: rgba(155,11,590,1) !important;
+  background: #2e3594 !important;
 }
 
   a.bg-primary:hover, a.bg-primary:focus,
@@ -10691,7 +10691,7 @@ html {
 hr.divider {
   max-width: 3.25rem;
   border-width: 0.2rem;
-  border-color: #540bc8;
+  border-color: #2e3594;
 }
 
 hr.light {
@@ -10835,8 +10835,10 @@ header.masthead {
 
 
 header.masthead h1 {
-  font-size: 3.25rem;
-  color:#1e1e1e !important;
+  color: #2e3594;
+  font-weight: bolder;
+  font-size: 4.5rem;
+ 
 }
 
 @media (min-width: 414px) {
@@ -10854,6 +10856,7 @@ header.masthead h1 {
   header.masthead h1 {
     font-size: 3.25rem;
     text-transform: inherit;
+    color: #212529;
   }
   header.masthead hr{
     display: none;
@@ -10951,7 +10954,7 @@ padding-right: 0.2em;
 }
 
 .portfolio-box-caption {
-    background-color: #540bc8 !important;
+    background-color: #2e3594 !important;
     opacity: 0.9!important;
 }
 header.masthead {
@@ -10981,4 +10984,7 @@ header.masthead {
     padding-left: 0;
     margin-top: 0.5rem;
 }
+}
+strong.web {
+  color: #2e3594;
 }
