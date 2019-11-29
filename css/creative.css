@@ -10969,6 +10969,10 @@ header.masthead {
   background-size: cover;
 }
  @media (max-width: 768px) {
+  img.img-fluid.logo {
+    display: none !important;
+  }
+   
     header.masthead {
       padding-top: 10rem;
       padding-bottom: calc(10rem - 32px);
