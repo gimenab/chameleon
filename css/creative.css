@@ -10744,11 +10744,11 @@ hr.light {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link:hover, #mainNav .navbar-nav .nav-item .nav-link:active {
-  color: #540bc8;
+  color: #2e3594;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active {
-  color: #540bc8 !important;
+  color: #2e35948 !important;
 }
 img.logo-plugin {
     width: 25px;
@@ -10796,7 +10796,7 @@ img.logo-plugin {
     padding: 0 1rem;
   }
   #mainNav .navbar-nav .nav-item .nav-link:hover {
-    color: #fff;
+    color: #2e3594;
   }
   #mainNav .navbar-nav .nav-item:last-child .nav-link {
     padding-right: 0;
@@ -10821,7 +10821,7 @@ img.logo-plugin {
     color: #212529;
   }
   #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link:hover {
-    color: #540bc8;
+    color: #2e3594;
   }
 }
 
